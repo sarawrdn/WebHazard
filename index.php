@@ -34,14 +34,6 @@
 
     <!-- Page Wrapper -->
     <div id="wrapper">
-
-        <!-- navigation bar-->
-        
-        <ul>
-            <li><a class="active" href="index.php">Home</a></li>
-        </ul>
-        <!-- nav bar -->
-
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
 

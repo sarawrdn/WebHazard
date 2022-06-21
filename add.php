@@ -32,15 +32,6 @@
 
     <!-- Page Wrapper -->
     <div id="wrapper">
-
-         <!-- navigation bar-->
-        
-         <ul>
-            <li><a class="active" href="index.php">Home</a></li>
-        </ul>
-        <!-- nav bar -->
-
-
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
 
@@ -140,7 +131,7 @@
                                 <span class="glyphicon glyphicon-save"></span> Report
                                 </button>
                                 
-                                <a class="btn btn-danger" href="table_hazard.php"> <span class="glyphicon glyphicon-backward"></span> Cancel </a>
+                                <a class="btn btn-danger" href="index.php"> <span class="glyphicon glyphicon-backward"></span> Cancel </a>
                                 
                                 </td>
                               </tr>
@@ -218,14 +209,14 @@ if (isset($_POST['submit'])) {
     if ($add_query) {
         echo '<script>alert("Data Updated"); </script>';
         echo '<script type="text/javascript">
-           window.location = "table_hazard.php"
+           window.location = "index.php"
       </script>';
     }
     else
     {
         echo '<script>alert("Data Not Updated"); </script>';
         echo '<script type="text/javascript">
-           window.location = "table_hazard.php"
+           window.location = "index.php"
       </script>';
     }
     
