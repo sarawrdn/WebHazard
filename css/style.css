@@ -541,10 +541,12 @@
   .container-lg,
   .container-xl {
     width: 100%;
+    padding-top: 100px;
     padding-right: 0.75rem;
     padding-left: 0.75rem;
     margin-right: auto;
     margin-left: auto;
+    position: absolute;
   }
   
   @media (min-width: 576px) {

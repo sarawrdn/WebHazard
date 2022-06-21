@@ -49,11 +49,9 @@
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">List of Reports</h6>
+                            <h6 style=" text-align: center;"class="m-0 font-weight-bold text-primary">List of Reports</h6>
                         </div>
                         <div class="card-body">
-
-                            <centre><a class="btn btn-info" href="add.php" title="click for edit" onclick="return confirm('Add new reports?')"><span class='glyphicon glyphicon-plus'></span>Add New Report</a></centre>
                             <br>
                             <div class="table-responsive">
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
@@ -96,6 +94,7 @@
                                     ?>
                                     </tbody>
                                 </table>
+                                <centre><a class="btn btn-info" href="add.php" title="click for edit" onclick="return confirm('Add new reports?')"><span class='glyphicon glyphicon-plus'></span>Add New Report</a></centre>
                             </div>
                         </div>
                     </div>
